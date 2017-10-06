@@ -1,14 +1,14 @@
 from django.conf.urls import *
 
-import dragonboy.views
+import jet_zt.views
 
 urlpatterns = [
     # Examples:
-    # url(r'^$', 'dragonboy.views.home', name='home'),
+    # url(r'^$', 'jet_zt.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
 
 
-	url(r'^$', dragonboy.views.home),
+	url(r'^$', jet_zt.views.home),
 
 ]

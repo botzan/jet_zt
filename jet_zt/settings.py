@@ -1,5 +1,5 @@
 """
-Django settings for dragonboy project.
+Django settings for jet_zt project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -25,7 +25,7 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'dragonboy/templates'),
+    os.path.join(BASE_DIR, 'jet_zt/templates'),
 )
 
 STATICFILES_DIRS = [
@@ -38,7 +38,7 @@ STATICFILES_DIRS = [
 # Application definition
 
 INSTALLED_APPS = (
-	'dragonboy',
+	'jet_zt',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,9 +57,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'dragonboy.urls'
+ROOT_URLCONF = 'jet_zt.urls'
 
-WSGI_APPLICATION = 'dragonboy.wsgi.application'
+WSGI_APPLICATION = 'jet_zt.wsgi.application'
 
 
 # Database
